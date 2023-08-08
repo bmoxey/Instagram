@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF29C6C12A81B8B100C3A256 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF29C6C02A81B8B100C3A256 /* FeedView.swift */; };
+		AF29C6C32A81B8C600C3A256 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF29C6C22A81B8C600C3A256 /* FeedCell.swift */; };
 		AFAAEE862A7E53D300B7A520 /* InstagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEE852A7E53D300B7A520 /* InstagramApp.swift */; };
 		AFAAEE882A7E53D300B7A520 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEE872A7E53D300B7A520 /* ContentView.swift */; };
 		AFAAEE8A2A7E53D400B7A520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAAEE892A7E53D400B7A520 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF29C6C02A81B8B100C3A256 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		AF29C6C22A81B8C600C3A256 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		AFAAEE822A7E53D300B7A520 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAAEE852A7E53D300B7A520 /* InstagramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramApp.swift; sourceTree = "<group>"; };
 		AFAAEE872A7E53D300B7A520 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 		AFAAEE992A7E548D00B7A520 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				AF29C6C02A81B8B100C3A256 /* FeedView.swift */,
+				AF29C6C22A81B8C600C3A256 /* FeedCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -250,10 +256,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF29C6C32A81B8C600C3A256 /* FeedCell.swift in Sources */,
 				AFAAEEA22A7E585A00B7A520 /* ProfileView.swift in Sources */,
 				AFAAEE882A7E53D300B7A520 /* ContentView.swift in Sources */,
 				AFAAEE862A7E53D300B7A520 /* InstagramApp.swift in Sources */,
 				AFAAEEA52A7E617B00B7A520 /* UserStatView.swift in Sources */,
+				AF29C6C12A81B8B100C3A256 /* FeedView.swift in Sources */,
 				AFAAEEA02A7E55D000B7A520 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
